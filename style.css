@@ -1,0 +1,53 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /* outline: 1px solid tomato; */
+}
+
+@font-face {
+    font-family: outfit;
+    font-size: 400;
+    src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: outfit-semibold;
+    font-size: 600;
+    src: url('assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: outfit-bold;
+    font-size: 700;
+    src: url('assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: youngserif;
+    font-size: 400;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
